@@ -328,7 +328,6 @@ section{ padding:100px 0; position:relative; }
 .circuit-svg{ position:absolute; inset:0; width:100%; height:100%; }
 .circuit-line{
   fill:none;
-  stroke:url(#none);
   stroke:rgba(48,73,163,0.28);
   stroke-width:2;
   stroke-dasharray:6 8;
