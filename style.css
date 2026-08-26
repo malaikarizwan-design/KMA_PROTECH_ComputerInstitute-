@@ -494,10 +494,13 @@ section{ padding:100px 0; position:relative; }
 
 .course-grid{
   display:grid;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns:repeat(3, minmax(0, 1fr));
   gap:26px;
+  width:100%;
 }
 .course-card{
+  min-width:0;
+  width:100%;
   background:var(--white);
   border-radius:var(--radius-lg);
   padding:32px 26px;
@@ -528,7 +531,13 @@ section{ padding:100px 0; position:relative; }
   transform:scale(1.08) rotate(-4deg);
 }
 .course-card h3{ font-size:1.15rem; margin-bottom:10px; }
-.course-card p{ color:var(--text-muted); font-size:0.95rem; flex-grow:1; }
+.course-card p{
+  color:var(--text-muted);
+  font-size:0.95rem;
+  flex-grow:1;
+  min-width:0;
+  overflow-wrap:break-word;
+}
 .course-link{
   margin-top:20px;
   display:inline-flex;
