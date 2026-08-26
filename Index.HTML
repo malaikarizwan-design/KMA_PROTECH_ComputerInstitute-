@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KMA Protech Computer Institute — Learn. Practice. Grow.</title>
+<meta name="description" content="KMA Protech Computer Institute — a project of Kutiyana Memon Association. Build real-world digital skills in Digital Marketing, AI &amp; ChatGPT, Cybersecurity, Graphic Design and Python.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <img src="images/kma-protech-logo.png" alt="KMA Protech Computer Institute logo" class="logo-img">
+      <span class="logo-text">
+        <strong>KMA PROTECH</strong>
+        <small>COMPUTER INSTITUTE</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#courses" class="nav-link">Courses</a>
+      <a href="#faculty" class="nav-link">Faculty</a>
+      <a href="#why-us" class="nav-link">Why Us</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#contact" class="btn btn-primary nav-enroll">Enroll Now</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="hero-copy reveal">
+      <span class="eyebrow"><i class="fa-solid fa-diagram-project"></i> A project of Kutiyana Memon Association</span>
+      <h1 class="hero-title">The future belongs to those who <span class="text-gradient">understand technology.</span></h1>
+      <p class="hero-sub">Build real-world digital skills. Learn from experienced instructors. Prepare yourself for the future.</p>
+      <div class="hero-actions">
+        <a href="#courses" class="btn btn-primary">Explore Courses <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-outline">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal" aria-hidden="true">
+      <div class="circuit-frame">
+        <svg class="circuit-svg" viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="circuit-line" d="M40 240 H160 M160 240 V120 H320 M160 240 V360 H280 M320 120 V60 H440 M320 120 H400 V200 M280 360 H360 V300 M400 200 V160" />
+          <circle class="circuit-node n1" cx="40" cy="240" r="6"/>
+          <circle class="circuit-node n2" cx="320" cy="120" r="6"/>
+          <circle class="circuit-node n3" cx="440" cy="60" r="6"/>
+          <circle class="circuit-node n4" cx="280" cy="360" r="6"/>
+          <circle class="circuit-node n5" cx="400" cy="200" r="6"/>
+          <circle class="circuit-node n6" cx="360" cy="300" r="6"/>
+          <circle class="circuit-node n7" cx="400" cy="160" r="6"/>
+        </svg>
+
+        <div class="terminal-card">
+          <div class="terminal-bar">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="terminal-title">learn.py</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="tk-key">import</span> <span class="tk-mod">future</span></p>
+            <p><span class="tk-var">skills</span> = [<span class="tk-str">"AI"</span>, <span class="tk-str">"Security"</span>, <span class="tk-str">"Design"</span>]</p>
+            <p><span class="tk-key">for</span> <span class="tk-var">skill</span> <span class="tk-key">in</span> <span class="tk-var">skills</span>:</p>
+            <p class="tk-indent"><span class="tk-fn">learn</span>(<span class="tk-var">skill</span>) <span class="tk-comment">.practice().grow()</span></p>
+            <p class="tk-cursor">&gt; ready<span class="blink">_</span></p>
+          </div>
+        </div>
+
+        <span class="floating-chip chip-1"><i class="fa-solid fa-shield-halved"></i> Security</span>
+        <span class="floating-chip chip-2"><i class="fa-solid fa-robot"></i> AI &amp; ChatGPT</span>
+        <span class="floating-chip chip-3"><i class="fa-solid fa-code"></i> Python</span>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll-cue"><span></span></div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="section-inner about-grid">
+    <div class="about-copy reveal">
+      <span class="eyebrow">About the institute</span>
+      <h2 class="section-title">Empowering the Next Generation Through Technology</h2>
+      <p class="section-text">
+        KMA Protech Computer Institute is a technology-focused educational initiative designed to help
+        students develop practical and future-ready digital skills.
+      </p>
+
+      <div class="info-cards">
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-user-tie"></i></div>
+          <div>
+            <span class="info-label">President</span>
+            <strong class="info-name">Haji Usman Padesi</strong>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <div>
+            <span class="info-label">Course Head</span>
+            <strong class="info-name">Tahir Akhter Farooqi</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-visual reveal" aria-hidden="true">
+      <div class="node-network">
+        <svg viewBox="0 0 400 400" class="network-svg">
+          <line class="net-line" x1="60" y1="80" x2="200" y2="60"/>
+          <line class="net-line" x1="200" y1="60" x2="340" y2="110"/>
+          <line class="net-line" x1="60" y1="80" x2="120" y2="220"/>
+          <line class="net-line" x1="200" y1="60" x2="200" y2="200"/>
+          <line class="net-line" x1="340" y1="110" x2="300" y2="250"/>
+          <line class="net-line" x1="120" y1="220" x2="200" y2="200"/>
+          <line class="net-line" x1="200" y1="200" x2="300" y2="250"/>
+          <line class="net-line" x1="120" y1="220" x2="160" y2="340"/>
+          <line class="net-line" x1="300" y1="250" x2="260" y2="340"/>
+          <line class="net-line" x1="160" y1="340" x2="260" y2="340"/>
+          <circle class="net-node" cx="60" cy="80" r="7"/>
+          <circle class="net-node" cx="200" cy="60" r="7"/>
+          <circle class="net-node" cx="340" cy="110" r="7"/>
+          <circle class="net-node net-node-big" cx="200" cy="200" r="11"/>
+          <circle class="net-node" cx="120" cy="220" r="7"/>
+          <circle class="net-node" cx="300" cy="250" r="7"/>
+          <circle class="net-node" cx="160" cy="340" r="7"/>
+          <circle class="net-node" cx="260" cy="340" r="7"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COURSES ============ -->
+<section class="courses" id="courses">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <span class="eyebrow">What you'll learn</span>
+      <h2 class="section-title">Explore Our Courses</h2>
+    </div>
+
+    <div class="course-grid">
+      <article class="course-card reveal">
+        <div class="course-icon"><i class="fa-solid fa-bullhorn"></i></div>
+        <h3>Digital Marketing Advanced</h3>
+        <p>Learn advanced digital marketing strategies, social media marketing, SEO, paid advertising, content strategy, analytics, and modern digital growth techniques.</p>
+        <a href="#contact" class="course-link">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+      </article>
+
+      <article class="course-card reveal">
+        <div class="course-icon"><i class="fa-solid fa-robot"></i></div>
+        <h3>AI &amp; ChatGPT Advanced</h3>
+        <p>Learn practical applications of AI and ChatGPT, prompt engineering, productivity workflows, content creation, automation, research, and modern AI tools.</p>
+        <a href="#contact" class="course-link">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+      </article>
+
+      <article class="course-card reveal">
+        <div class="course-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3>Cybersecurity Fundamental</h3>
+        <p>Build foundational knowledge of cybersecurity, online safety, threats, security concepts, networks, and responsible security practices.</p>
+        <a href="#contact" class="course-link">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+      </article>
+
+      <article class="course-card reveal">
+        <div class="course-icon"><i class="fa-solid fa-swatchbook"></i></div>
+        <h3>Graphic Design Fundamental</h3>
+        <p>Learn visual communication, design principles, typography, layouts, branding, and digital design fundamentals.</p>
+        <a href="#contact" class="course-link">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+      </article>
+
+      <article class="course-card reveal">
+        <div class="course-icon"><i class="fa-brands fa-python"></i></div>
+        <h3>Python Fundamental</h3>
+        <p>Learn Python programming basics including variables, conditions, loops, functions, data structures, and practical programming concepts.</p>
+        <a href="#contact" class="course-link">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section class="why-us" id="why-us">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <span class="eyebrow">Our approach</span>
+      <h2 class="section-title">Why Choose KMA Protech?</h2>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <i class="fa-solid fa-hand-holding-hand"></i>
+        <h3>Practical Learning</h3>
+        <p>Focus on useful skills that can be applied in real-world situations.</p>
+      </div>
+      <div class="why-card reveal">
+        <i class="fa-solid fa-people-arrows"></i>
+        <h3>Expert Guidance</h3>
+        <p>Learn with guidance from experienced instructors.</p>
+      </div>
+      <div class="why-card reveal">
+        <i class="fa-solid fa-rocket"></i>
+        <h3>Future-Focused Courses</h3>
+        <p>Learn modern digital and technology skills.</p>
+      </div>
+      <div class="why-card reveal">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>Hands-On Education</h3>
+        <p>Practice concepts through activities and projects.</p>
+      </div>
+      <div class="why-card reveal">
+        <i class="fa-solid fa-briefcase"></i>
+        <h3>Career-Oriented Skills</h3>
+        <p>Develop useful skills for future opportunities.</p>
+      </div>
+      <div class="why-card reveal">
+        <i class="fa-solid fa-people-group"></i>
+        <h3>Supportive Learning Environment</h3>
+        <p>Learn, practice, and grow in a positive environment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FACULTY ============ -->
+<section class="faculty" id="faculty">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <span class="eyebrow">Our team</span>
+      <h2 class="section-title">Meet Our Instructors</h2>
+    </div>
+
+    <div class="faculty-grid">
+      <div class="faculty-card reveal">
+        <div class="faculty-photo">
+          <img src="https://ui-avatars.com/api/?name=Ubaid+Vorha&background=3049A3&color=fff&size=256&font-size=0.38&bold=true" alt="Ubaid Vorha">
+        </div>
+        <h3>Ubaid Vorha</h3>
+        <span class="faculty-role">Instructor, KMA Protech</span>
+      </div>
+      <div class="faculty-card reveal">
+        <div class="faculty-photo">
+          <img src="https://ui-avatars.com/api/?name=Abu+Baker&background=08A9E6&color=fff&size=256&font-size=0.38&bold=true" alt="Abu Baker">
+        </div>
+        <h3>Abu Baker</h3>
+        <span class="faculty-role">Instructor, KMA Protech</span>
+      </div>
+      <div class="faculty-card reveal">
+        <div class="faculty-photo">
+          <img src="https://ui-avatars.com/api/?name=Shahriyar&background=101B3D&color=fff&size=256&font-size=0.38&bold=true" alt="Shahriyar">
+        </div>
+        <h3>Shahriyar</h3>
+        <span class="faculty-role">Instructor, KMA Protech</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEARNING PROCESS ============ -->
+<section class="process" id="process">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <span class="eyebrow">How it works</span>
+      <h2 class="section-title">Learn. Practice. Grow.</h2>
+    </div>
+
+    <div class="process-track">
+      <div class="process-line" aria-hidden="true">
+        <div class="process-line-fill"></div>
+      </div>
+
+      <div class="process-step reveal">
+        <span class="step-num">01</span>
+        <h3>Learn</h3>
+        <p>Understand concepts through structured lessons.</p>
+      </div>
+      <div class="process-step reveal">
+        <span class="step-num">02</span>
+        <h3>Practice</h3>
+        <p>Apply knowledge through practical activities and projects.</p>
+      </div>
+      <div class="process-step reveal">
+        <span class="step-num">03</span>
+        <h3>Grow</h3>
+        <p>Build confidence and develop valuable technology skills.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta">
+  <div class="section-inner cta-inner reveal">
+    <h2>Ready to Build Your Future With Technology?</h2>
+    <p>Choose your course, develop valuable digital skills, and take your next step with KMA Protech Computer Institute.</p>
+    <div class="hero-actions">
+      <a href="#courses" class="btn btn-white">Explore Courses</a>
+      <a href="#contact" class="btn btn-outline-white">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <span class="eyebrow">Get started</span>
+      <h2 class="section-title">Get In Touch</h2>
+    </div>
+
+    <div class="contact-card reveal">
+      <h3>KMA Protech Computer Institute</h3>
+      <p>A project of Kutiyana Memon Association</p>
+
+      <ul class="contact-details">
+        <li><i class="fa-solid fa-phone"></i> YOUR_WHATSAPP_NUMBER</li>
+        <li><i class="fa-solid fa-envelope"></i> YOUR_EMAIL</li>
+        <li><i class="fa-solid fa-location-dot"></i> YOUR_ADDRESS</li>
+      </ul>
+
+      <div class="contact-actions">
+        <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" rel="noopener" class="btn btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+        <a href="mailto:YOUR_EMAIL" class="btn btn-outline">
+          <i class="fa-solid fa-message"></i> Message Us
+        </a>
+        <a href="#contact" class="btn btn-primary">Enroll Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <div class="footer-brand">
+      <span class="footer-title">KMA PROTECH</span>
+      <span class="footer-subtitle">COMPUTER INSTITUTE</span>
+      <p>The future belongs to those who understand technology.</p>
+    </div>
+
+    <nav class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#faculty">Faculty</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer-people">
+      <p>President: Haji Usman Padesi</p>
+      <p>Course Head: Tahir Akhter Farooqi</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> KMA Protech Computer Institute. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
